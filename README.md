@@ -1,5 +1,10 @@
 # 🚀 Republic AI Validatör Node Kurulum Rehberi (Windows WSL İçin)
 
+![Version](https://img.shields.io/badge/Version-v0.3.0-blue)
+![Platform](https://img.shields.io/badge/Platform-Windows_WSL_|_Ubuntu-orange)
+![Language](https://img.shields.io/badge/Dil-T%C3%BCrk%C3%A7e-red)
+
+
 Bu rehber, **Windows** işletim sisteminde **WSL (Windows Subsystem for Linux)** kullanarak sıfırdan, hiçbir kodlama geçmişi olmayan birinin bile anlayabileceği şekilde **Republic AI Validatör Node** kurulumunu aşama aşama anlatmaktadır.
 
 ---
@@ -346,3 +351,4 @@ republicd tx distribution withdraw-rewards $(republicd keys show $REPUBLIC_WALLE
 --node tcp://localhost:${REPUBLIC_PORT}657 \
 -y
 ```
+
